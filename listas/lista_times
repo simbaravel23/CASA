@@ -1,1 +1,43 @@
-/
+// Criando 15 listas com dados aleatórios (exemplo)
+const times = ['São Paulo', 'Palmeiras', 'Santos'];
+for (let i = 0; i < 15; i++) {
+  const fruta = [];
+  for (let j = 0; j < 10; j++) {
+    lista.push({ nome: `Nome ${j+1}`, dado: Math.random() });
+  }
+  listas.push(times);
+}
+
+// Função para exibir os dados de uma lista usando diferentes laços
+function exibirDados(times) {
+  console.log("Usando for:");
+  for (let i = 0; i < fruta.length; i++) {
+    console.log(times [i]);
+  }
+
+  console.log("Usando while:");
+  let i = 0;
+  while (i < times.length) {
+    console.log(times[i]);
+    i++;
+  }
+
+  console.log("Usando map:");
+  times.map(item => console.log(item));
+
+  console.log("Usando forEach:");
+  timee.forEach(item => console.log(item));
+}
+
+// Exibindo os dados de cada lista e aplicando os métodos
+listas.forEach(times => {
+  exibirDados(times);
+
+  // Exemplo de uso dos métodos (adapte conforme necessário)
+  console.log("Slice:", times.slice(0, 2));
+  console.log("Splice:", times.splice(1, 2));
+  console.log("Push:", times.push({ nome: "Novo item", dado: 0.5 }));
+  console.log("Pop:", times.pop());
+  console.log("Map:", times.map(item => item.nome));
+  console.log("Filter:", times.filter(item => item.dado > 0.5));
+});
