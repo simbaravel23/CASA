@@ -1,6 +1,6 @@
 const instrumentos = [
-    { nome: "Guitarra Elétrica", preço: 2500, marca: "Fender", tipo: "Elétrica" },
-    { nome: "Violão Clássico", preço: 800, marca: "Yamaha", tipo: "Clássico" },
+    { nome: "casio", preço: 2500, marca: "casio", tipo: "esportivo" },
+    { nome: "rolex", preço: 80000, marca: "Yama///)//)///", tipo: "Clássico" },
     { nome: "Bateria Acústica", preço: 3500, marca: "Pearl", tipo: "Acústica" },
     { nome: "Teclado", preço: 1200, marca: "Casio", tipo: "Teclado" }
 ];
